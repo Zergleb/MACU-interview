@@ -65,7 +65,7 @@ function AnimalsView() {
     setEditAnimalModel({
       id: maxId + 1,
       name: "",
-      age: 0,
+      age: "",
       species: "",
       adding: true,
     });
