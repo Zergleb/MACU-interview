@@ -1,0 +1,23 @@
+#AnimalsTable > table {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#AnimalsTable > table > thead {
+  font-weight: bold;
+}
+
+#AnimalsTable > table > tbody > tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#AnimalsTable > table > tbody > tr:hover {
+  background-color: #9c9c9c;
+}
+#AnimalsTable > table > tbody > tr.rowSelected {
+  background-color: #9c9c9c;
+}
+
+#AnimalsTable > label.filter {
+  float: right;
+}

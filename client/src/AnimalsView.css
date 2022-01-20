@@ -1,0 +1,22 @@
+@media (min-width: 720px) {
+  #AnimalsView {
+    max-width: 720px;
+  }
+  #AnimalsTable {
+    max-width: 700px;
+  }
+}
+
+#AnimalsView {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+/*Probably a bad naming strategy */
+.right {
+  text-align: right;
+}

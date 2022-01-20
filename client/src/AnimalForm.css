@@ -1,0 +1,16 @@
+#AnimalForm > form > input[type="text"],
+input[type="number"] {
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#AnimalForm > form > input[type="submit"] {
+  cursor: pointer;
+}
+
+#AnimalForm {
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
